@@ -30,7 +30,7 @@ impl fmt::Display for Point2D {
     }
 }
 
-// Activity Code
+// 1.2.2  Activity Code
 
 #[derive(Debug)]
 struct Complex {
