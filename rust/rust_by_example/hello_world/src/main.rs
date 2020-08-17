@@ -5,9 +5,9 @@ mod test_case;          // 1.2.2.1
 mod formatting_print;   // 1.2.3
 
 fn main() {
-    // formatted_print::run();
-    // debug_print:run();
-    // display_print::run();
-    // test_case::run();
+    formatted_print::run();
+    debug_print::run();
+    display_print::run();
+    test_case::run();
     formatting_print::run();
 }

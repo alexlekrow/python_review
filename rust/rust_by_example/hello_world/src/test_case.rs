@@ -25,6 +25,7 @@ impl fmt::Display for List {
     }
 }
 
+#[allow(dead_code)]
 pub fn run() {
     let v = List(vec![1, 2, 3]);
     println!("{}", v);
