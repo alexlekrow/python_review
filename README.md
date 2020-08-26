@@ -6,4 +6,27 @@ All examples will be done in python and/or rust, this is primarily to make mysel
 
 I will review all examples and take detailed analysis notes in README files throughout the repo.
 
+## Topics Covered
+
+### Data Structures
+* Linked Lists
+* Trees, Tries & Graphs
+* Stacks & Queues
+* Heaps
+* Vectors / ArrayLists
+* Hash Tables
+
+### Algorithms
+* Breadth-First Search
+* Depth-First Search
+* Binary Search
+* Merge Sort
+* Quick Sort
+
+### Concepts
+* Bit Manipulation
+* Memory ( Stack v. Heap)
+* Recursion
+* Dynamic Programming
+* Big O Time & Space
 
