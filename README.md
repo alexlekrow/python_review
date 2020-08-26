@@ -8,6 +8,8 @@ I will review all examples and take detailed analysis notes in README files thro
 
 ## Topics Covered
 
+To fully prepare make sure that you understand how to use and implement all of the following, and know the space/time complexity where applicable.
+
 ### Data Structures
 * Linked Lists
 * Trees, Tries & Graphs
