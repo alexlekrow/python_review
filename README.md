@@ -49,7 +49,7 @@ The following concepts are hacks that can be memorized to potentially be useful 
 | 32  | 4,294,967,296 || 4GB |
 | 40  | 1,099,511,627,776 | 1 trillion| 1TB|
 
-[[/CTCI_problem_solving_flowchart.png|flowchartT]]
+[Flowchart](./CTCI_problem_solving_flowchart.png)
 
 ## Additional Resources to Extract Info from 
 [Facebook Software Engineer Interview Material](https://igotanoffer.com/blogs/tech/facebook-software-engineer-interview)
