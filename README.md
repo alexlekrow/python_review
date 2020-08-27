@@ -38,7 +38,7 @@ The following resources are useful to have in front of you for interviews.
 
 ### Problem Solving Flowchart
 
-![Flowchart](./CTCI_problem_solving_flowchart.png)
+![Flowchart](/assets/images/CTCI_problem_solving_flowchart.png)
 
 ### Useful Powers of 2 Table
 |   Power of 2  |    Exact Value    | Approx. Value | X Bytes into MB, GB, etc. |
