@@ -4,9 +4,11 @@
 
 To fully prepare make sure that you understand how to use and implement all of the following, and know the space/time complexity where applicable.
 
-**NOTE:** Practicing on paper before coding implementations can help you better learn the internals without relying on code completion tools.
+> **NOTE:** Practicing on paper before coding implementations can help you better learn the internals without relying on code completion tools provided be an editor.
+> :page_with_curl::pencil2:
 
 ### Data Structures
+
 * Linked Lists
 * Trees
 * Tries
@@ -15,7 +17,7 @@ To fully prepare make sure that you understand how to use and implement all of t
 * Queues
 * Heaps
 * Vectors / ArrayLists
-* **Hash Tables**
+* :exclamation: Hash Tables
 
 ### Algorithms
 * Breadth-First Search
