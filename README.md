@@ -33,6 +33,12 @@ To fully prepare make sure that you understand how to use and implement all of t
 * Dynamic Programming
 * Big O Time & Space
 
+### Personal Topics to Review Evaluate need for additional review after CTCI
+- [ ] Logarithmic Laws
+- [ ] Djisktras Implementation
+- [ ] ASCII basics
+- [ ] Entity-Relationship tables
+
 ## Interview Quick Reference
 The following resources are useful to have in front of you for interviews.
 
