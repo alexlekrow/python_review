@@ -1,5 +1,36 @@
 # Technical Interview Workbook
 
+## Study Stategy
+
+## Phase 1
+
+## 
+Start Chapter 1 of CTCI for **Phase 1** and progress to 
+
+Work will be done in C++ ( Strongest language, and most low level ).
+
+### Part 3
+
+Review each data structure for each language to strengthen mental correlation between programming languages and how their concepts are simialar or differ.
+
+## Phase 2 - Concepts and Algorithms
+
+
+
+## Phase 3 - Knowledge Base
+
+## Phase 4 - Review Problems
+
+## Phase 5 - 
+
+Phase 6 - Grind LeetCode with all 3 languages, timed solves (20/mediusm), (
+
+
+### Key Methods
+
+** Spaced Repetition (Distributed Practice) - By working on the material in 3 seperate phases.
+** Practice Testing - By working through the following topics.
+
 ## Topics Covered
 
 To fully prepare make sure that you understand how to use and implement all of the following, and know the space/time complexity where applicable.
