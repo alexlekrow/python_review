@@ -299,16 +299,16 @@ def exploreIsland(world, visited, startPosition):
         # print(f"exploring: {row}, {col}")
 
         # Check neighbor above current tile
-        if row - 1 > 0 and (row - 1, col) not in visited and world[row - 1][col] == 'L':
+        if 0 <= row - 1 < len(world) and (row - 1, col) not in visited and world[row - 1][col] == 'L':
             path.append((row - 1, col))
         # Check neighbor below current tile
-        if row + 1 < len(world) and (row + 1, col) not in visited and world[row + 1][col] == 'L':
+        if 0 <= row + 1 < len(world) and (row + 1, col) not in visited and world[row + 1][col] == 'L':
             path.append((row + 1, col))
         # Check neighbor left of current tile
-        if col - 1 > 0 and (row, col - 1) not in visited and world[row][col - 1] == 'L':
+        if 0 <= col - 1 < len(world[row]) and (row, col - 1) not in visited and world[row][col - 1] == 'L':
             path.append((row, col - 1))
         # Check neighbor right of current tile
-        if col + 1 < len(world[row]) and (row, col + 1) not in visited and world[row][col + 1] == 'L':
+        if 0 <= col + 1 < len(world[row]) and (row, col + 1) not in visited and world[row][col + 1] == 'L':
             path.append((row, col + 1))
 
     islandSize = len(visited) - previouslyVisited
