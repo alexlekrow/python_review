@@ -1,6 +1,6 @@
 def mergeSort(arr):
     '''
-    * Merge sort is a stable sorting alog
+    * Merge sort is a stable sorting algo
 
     Time Complexity:
         Best    -   O(n * log n)
