@@ -1,4 +1,15 @@
 def mergeSort(arr):
+    '''
+    * Merge sort is a stable sorting alog
+
+    Time Complexity:
+        Best    -   O(n * log n)
+        Average -   O(n * log n)
+        Worst   -   O(n * log n)
+
+    Space Complexity 
+                -   O(n)
+    '''
     N = len(arr)
     if N > 1:
         mid = N // 2
@@ -41,8 +52,10 @@ def printList(values):
 
 def driver():
     values = [5, 4, 3, 2, 1, 2, 3, 4, 7, 8, 8, 6]
+    print('Before Sort')
     printList(values)
     mergeSort(values)
+    print('After Sort')
     printList(values)
 
 
