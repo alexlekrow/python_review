@@ -3,7 +3,7 @@ from typing import List
 
 def insertionSort(arr: List[int]):
     '''
-    * Insertion sort is an inplace unstable sorting algo
+    * Insertion sort is an inplace stable sorting algo
 
     Time Complexity:
         Best    -   O(n) 
