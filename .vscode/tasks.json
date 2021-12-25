@@ -10,15 +10,6 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "shell",
-      "label": "cargo run primitives",
-      "command": "cargo",
-      "args": ["run"],
-      "problemMatcher": [],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
     }
   ]
 }
