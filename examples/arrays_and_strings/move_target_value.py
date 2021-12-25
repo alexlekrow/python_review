@@ -36,11 +36,15 @@ def move_target_to_left(arr, target):
             swap(arr, i, i + reserved)
 
 
-def driver():
-    A = [1, 10, 20, 0, 58, 63, 0, 88, 0]
-    move_target_to_right(A, 0)
-    print(A)
+def main():
+    zeroes_moved_right = [1, 10, 20, 0, 58, 63, 0, 88, 0]
+    move_target_to_right(zeroes_moved_right, 0)
+    assert zeroes_moved_right == [1, 10, 20, 58, 63, 88, 0, 0, 0]
+
+    nines_moved_left = [1, 10, 20, 9, 58, 63, 9, 88, 9]
+    move_target_to_left(nines_moved_left, 9)
+    assert nines_moved_left == [9, 9, 9, 1, 10, 20, 58, 63, 88]
 
 
 if __name__ == '__main__':
-    driver()
+    main()
