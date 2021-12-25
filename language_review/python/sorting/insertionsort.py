@@ -3,15 +3,15 @@ from typing import List
 
 def insertionSort(arr: List[int]):
     '''
-    * Insertion sort is an inplace stable sorting algo
+    Insertion sort is an inplace stable sorting algo
 
     Time Complexity:
-        Best    -   O(n) 
-        Average -   O(n^2)
-        Worst   -   O(n^2)
+        O(n^2) quadratic time worst case
+        O(n^2) quadratic time average case
+        O(n) linear time      best case
 
-    Space Complexity 
-                -   O(1)
+    Space Complexity:   
+        O(1) constant space 
     '''
     N = len(arr)
     for i in range(1, N):

@@ -1,14 +1,14 @@
 def mergeSort(arr):
     '''
-    * Merge sort is a stable sorting algo
+    Merge sort is a stable sorting algo
 
     Time Complexity:
-        Best    -   O(n * log n)
-        Average -   O(n * log n)
-        Worst   -   O(n * log n)
+        O(n * log n) logarithmic time worst case
+        O(n * log n) logarithmic time average case
+        O(n * log n) logarithmic time best case
 
-    Space Complexity 
-                -   O(n)
+    Space Complexity:   
+        O(n) linear space 
     '''
     N = len(arr)
     if N > 1:

@@ -3,15 +3,15 @@ from typing import List
 
 def selectionSort(arr: List[int]):
     '''
-    * Selection sort is an inplace unstable sorting algo
+    Selection sort is an inplace unstable sorting algo
 
     Time Complexity:
-        Best    -   O(n^2) 
-        Average -   O(n^2)
-        Worst   -   O(n^2)
+        O(n^2) quadratic time worst case
+        O(n^2) quadratic time average case
+        O(n^2) quadratic time best case
 
-    Space Complexity 
-                -   O(1)
+    Space Complexity:   
+        O(1) constant space 
     '''
     N = len(arr)
     for i in range(N):
