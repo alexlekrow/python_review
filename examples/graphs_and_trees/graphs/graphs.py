@@ -291,6 +291,9 @@ def exploreIsland(world, visited, startPosition):
     previouslyVisited = len(visited)
     path = [startPosition]
 
+    def _isUnexploredLand(row, column):
+        return (row, column) not in visited and world[row][column] == 'L'
+
     while path:
         row, col = path.pop()
         if (row, col) in visited:
@@ -298,18 +301,28 @@ def exploreIsland(world, visited, startPosition):
         visited.add((row, col))
         # print(f"exploring: {row}, {col}")
 
+        rows = len(world)
+        columns = len(world[row])
+
         # Check neighbor above current tile
-        if 0 <= row - 1 < len(world) and (row - 1, col) not in visited and world[row - 1][col] == 'L':
-            path.append((row - 1, col))
+        rowAbove = row - 1
+        if 0 <= rowAbove < rows and _isUnexploredLand(rowAbove, col):
+            path.append((rowAbove, col))
+
         # Check neighbor below current tile
-        if 0 <= row + 1 < len(world) and (row + 1, col) not in visited and world[row + 1][col] == 'L':
-            path.append((row + 1, col))
+        rowBelow = row + 1
+        if 0 <= rowBelow < rows and _isUnexploredLand(rowBelow, col):
+            path.append((rowBelow, col))
+
         # Check neighbor left of current tile
-        if 0 <= col - 1 < len(world[row]) and (row, col - 1) not in visited and world[row][col - 1] == 'L':
-            path.append((row, col - 1))
+        columnLeft = col - 1
+        if 0 <= columnLeft < columns and _isUnexploredLand(row, columnLeft):
+            path.append((row, columnLeft))
+
         # Check neighbor right of current tile
-        if 0 <= col + 1 < len(world[row]) and (row, col + 1) not in visited and world[row][col + 1] == 'L':
-            path.append((row, col + 1))
+        columnRight = col + 1
+        if 0 <= columnRight < columns and _isUnexploredLand(row, columnRight):
+            path.append((row, columnRight))
 
     islandSize = len(visited) - previouslyVisited
     print(f"Finished exploring island of size {islandSize}")
