@@ -1,3 +1,7 @@
+## Running API with uvicron
+
+The server can be ran from the API root directory with `uvicron main:app`
+
 ## Managing Dev Dependencies
 
 Cache API dependencies with `pip freeze > requirements.txt`.
