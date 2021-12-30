@@ -1,0 +1,5 @@
+pydantic==1.8.2
+SQLAlchemy==1.4.29
+sqlalchemy2-stubs==0.0.2a19
+sqlmodel==0.0.6
+typing_extensions==4.0.1
