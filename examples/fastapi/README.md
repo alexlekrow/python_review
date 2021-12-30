@@ -1,6 +1,6 @@
 ## Running API with uvicron
 
-The server can be ran from the API root directory with `uvicron main:app`
+The server can be ran from the API root directory with `uvicron main:app --reload`
 
 ## Managing Dev Dependencies
 
