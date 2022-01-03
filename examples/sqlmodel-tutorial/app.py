@@ -1,4 +1,11 @@
 
-from db import engine, SQLModel
+from db import engine
+from sqlmodel import SQLModel
 
-SQLModel.metadata.create_all(engine)
+
+def create_db_and_tables():
+    SQLModel.metadata.create_all(engine)
+
+
+if __name__ == "__main__":
+    create_db_and_tables()
